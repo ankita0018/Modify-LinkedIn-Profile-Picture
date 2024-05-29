@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Modify LinkedIn Profile Pictures",
+    "description": "Changes the profile pictures of all posts on the LinkedIn homepage to a single selected image",
+    "version": "0.1",
+    "action": {
+        "default_icon": "linkedin.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["contentScript.js"]
+    }],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ]
+}
