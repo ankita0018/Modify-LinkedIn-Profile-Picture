@@ -1,2 +1,3 @@
 # Modify-LinkedIn-Profile-Picture
-Chrome extension that injects into the LinkedIn homepage and modifies the profile picture in all posts
+A Chrome extension that changes the profile pictures of all posts on the LinkedIn homepage to a single image of your choice. This interacts with the dynamic webpage and manipulate its elements. 
+
